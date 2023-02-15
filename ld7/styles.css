@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.4;
+    color: #070707;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 970px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#header.container {
+    border-bottom: 1px solid #828282;
+}
+
+nav a {
+    color: #828282;
+    text-decoration: none;
+    padding: 0 27px;
+    line-height: 80px;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.intro {
+    padding-top: 13px;
+}
+
+.intro h1 {
+    margin-bottom: 41px;
+    margin-top: 0;
+}
+
+.intro img {
+    width: 970px;
+    height: 387px;
+    top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    background: #f6f6f6;
+    padding: 95px 0;
+    text-align: center;
+}
+
+.about p {
+    max-width: 970px;
+}
+
+.skill-list {
+    display: inline-block;
+    width: 170px;
+    height: 200px;
+}
+
+.skills h3 {
+    text-align: center;
+}
+
+.skills p {
+    text-align: center;
+}
+
+.portfolio {
+    background: #E5E5E5;
+    padding-bottom: 100px;
+}
+
+.portfolio h3 {
+    text-align: center;
+}
+
+.portfolio p {
+    text-align: center;
+}
+
+#footer.container {
+    border-bottom: 1px solid #828282;
+}
+
+.contacts h3 {
+    text-align: center;
+}
+
+.contacts p {
+    text-align: center;
+}
+
+.container1 {
+    margin-left: 400px;
+}
+
+.slide1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 200px;
+}
+
+.slide2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.skills {
+    padding: 0px 22px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    background: #070707;
+    color: #fff;
+    border-radius: 22px;
+    padding: 10px 16px;
+    text-decoration: none;
+    box-shadow: none;
+    border: 2px solid #070707;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+}
+
