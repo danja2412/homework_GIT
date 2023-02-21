@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #FFFFFF;
+    color: #fff;
+    padding: 0 20px;
+    margin: 3px 399px 0px 86px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#product {
+    color: #FF9900;
+}
+
+nav a {
+    color: #2F281E;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.button-log button {
+    color: #333;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: grey;
+}
+
+#in {
+    background: #FFFFFF;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: gray;
+}
+
+#up {
+    background: #FF9900;
+
+}
+
+html, body {
+    font-family: 'Montserrat';
+    color: #2F281E;
+}
+
+.inst-list1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 200px;
+}
+
+.inst-list2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.inst-list {
+    padding: 0px 22px;
+    padding-bottom: 20px;
+}
+
+.main {
+    background: #F2F2F2;
+}
+
+#main h1 {
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 167px 0px 20px 117px;
+    width: 500px;
+
+}
+
+.logo2 img {
+    position: absolute;
+    width: 596px;
+    height: 500px;
+    left: 664px;
+    top: 92px;
+    margin: 54px;
+}
+
+#main p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 500px;
+    margin: 0 0 0 120px;
+}
+
+#main h2 {
+    margin: 398px 100px 0px 0px; 
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.inst-list p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    position: absolute;
+}
+
