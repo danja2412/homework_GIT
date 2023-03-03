@@ -1,0 +1,84 @@
+<!-- Я тільки не дуже зрозумів як зробити переход з одніеї сторінки на іншу
+
+перехід між сторінками index1.html  /   index2.html
+
+Ще щось в мене на другому index контейнер поїхав та дуже малий, не звав як виправити -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="bg">
+                    <div class="form_box">
+                        <h1 class="form-box__title">Create an Account</h1>
+                        <form action="#">
+                            <div class="input_box_wrapper --marginB-20">
+                                <div class="input-box">
+                                    <label class="title" for="name">First Name</label>
+                                    <input type="text" id="name">
+                                </div>
+                                <div class="input_box">
+                                    <label class="title" for="last-name">Last Name</label>
+                                    <input type="text" id="last-name">
+                                </div>
+                            </div>
+                            <div class="input_box --marginB-20">
+                                <label class="title" for="email">E-mail</label>
+                                <input type="email" id="email" required>
+                                <span class="hint">We'll never share your email with anyone else.</span>
+                            </div>
+                            <div class="input_box --marginB-20 " >
+                                <div class="radio-gender">
+                                    <input type="radio" name="gender" id="man" value="man">
+                                    <label class="radio" for="man">Male</label>
+                                </div>
+                                <div class="radio-gender">
+                                    <input type="radio" name="gender" id="woman" value="woman">
+                                    <label class="radio" for="woman">Female</label>
+                                </div>
+                            </div>
+                            <div class="input_box_wrapper --marginB-20">
+                                <div class="input_box">
+                                    <label class="title" for="country">Country</label>
+                                    <div class="select-style">
+                                        <select class="select" name="country" id="country">
+                                            <option value="select">Select</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input_box">
+                                    <label class="title" for="city">City</label>
+                                    <input type="text" id="city">
+                                </div>
+                            </div>
+                            <div class="input_box">
+                                <button class="btn" type="submit">Sign Up</button>
+                            </div>
+                        </form>
+                        <div class="footer">
+                            <div class="info">
+                                <p>By clicking the 'Sign Up' button, you confirm that you accept  our <a href="#" class="--links">Terms of Use</a> and <a href="#" class="--links">Privacy Policy</a>.</p>
+                            </div>
+                            <div class="link"><span>Have an account?</span><a href="#" class="--links">Log In</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

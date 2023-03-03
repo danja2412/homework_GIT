@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="bg --paddintB-100">
+                    <div class="form-box">
+                        <h1 class="form-box__title">Profile</h1>
+                        <form action="#">
+                            <div class="input_box file-wrapper --marginB-20">
+                                <div class="img"><img src="./img/1.png" alt="img"></div>
+                                <div class="input-box__file">
+                                    <div class="file-load">
+                                        <label class="file" for="file"></label>
+                                        <input class="file_input" type="file" id="file">
+                                        <button class="remove-btn"><img src="./img/2.svg" alt="#"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input_box_wrapper --marginB-20">
+                                <div class="input-box">
+                                    <label class="title" for="name">First Name</label>
+                                    <input type="text" id="name">
+                                </div>
+                                <div class="input_box">
+                                    <label class="title" for="email">E-mail</label>
+                                    <input type="email" id="email" required>
+                                </div>
+                            </div>
+                            <div class="input_box_wrapper --marginB-20">
+                                <div class="input_box">
+                                    <label class="title" for="country">Country</label>
+                                    <div class="select-style">
+                                        <select class="select" name="country" id="country">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input_box">
+                                    <label class="title" for="city">City</label>
+                                    <input type="text" id="city">
+                                </div>
+                            </div>
+                            <div class="input_box_wrapper --marginB-20">
+                                <div class="input_box">
+                                    <label class="title" for="code">Zip Code</label>
+                                    <input type="text" id="code">
+                                </div>
+                                <div class="input_box">
+                                    <label class="title" for="tel">Phone Number</label>
+                                    <input type="tel" id="tel" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn profile-btn">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
